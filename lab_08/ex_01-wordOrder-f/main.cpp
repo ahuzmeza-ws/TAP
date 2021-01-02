@@ -6,9 +6,13 @@
 /*   By: alinhuzmezan            							╚═╝╩ ╩╚  ╚═╝ ╩    */
 /*                                                       George Emil Palade   */
 /*   Created: 2021/01/02 23:29 by alinhuzmezan                                */
-/*   Updated: 2021/01/03 00:06 by alinhuzmezan                                */
+/*   Updated: 2021/01/03 01:07 by alinhuzmezan                                */
 /*                                                                            */
 /* ************************************************************************** */
+
+// Using STL set 
+// read words from file
+// (removes duplicates and sorts alpha.)
 
 #include <iostream>
 #include <fstream>

@@ -6,9 +6,13 @@
 /*   By: alinhuzmezan            							╚═╝╩ ╩╚  ╚═╝ ╩    */
 /*                                                       George Emil Palade   */
 /*   Created: 2021/01/03 00:39 by alinhuzmezan                                */
-/*   Updated: 2021/01/03 01:01 by alinhuzmezan                                */
+/*   Updated: 2021/01/03 01:08 by alinhuzmezan                                */
 /*                                                                            */
 /* ************************************************************************** */
+
+// Using STL map
+// read words from file
+// (map word to wordcount)
 
 #include <iostream>
 #include <fstream>
