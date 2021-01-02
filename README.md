@@ -1,1 +1,2 @@
-Git TAP (Advanced Programming Tehniques
+Git repo
+	TAP (Advanced Programming Tehniques
