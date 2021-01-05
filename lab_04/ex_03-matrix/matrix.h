@@ -6,7 +6,7 @@
 /*   By: alinhuzmezan            							╚═╝╩ ╩╚  ╚═╝ ╩    */
 /*                                                       George Emil Palade   */
 /*   Created: 2020/12/29 01:12 by alinhuzmezan                                */
-/*   Updated: 2020/12/29 03:33 by alinhuzmezan                                */
+/*   Updated: 2021/01/05 19:07 by alinhuzmezan                                */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,13 +45,13 @@ public:
 	// arithmetic
 	friend Matrix 	operator +	(const Matrix &, const Matrix &);
 	friend Matrix 	operator -	(const Matrix &, const Matrix &);
-/* !FIN */friend Matrix 	operator *	(const Matrix &, const Matrix &);
-/* !FIN */friend Matrix 	operator /	(const Matrix &, const Matrix &);
+	friend Matrix 	operator *	(const Matrix &, const Matrix &);
+	friend Matrix 	operator /	(const Matrix &, const Matrix &);
 	Matrix& 		operator +=	(const Matrix &);
 	Matrix&			operator -=	(const Matrix &);
-/* !FIN */Matrix& 		operator *= (const Matrix &);
-/* !FIN */Matrix& 		operator /= (const Matrix &);
-/* !FIN */Matrix& 		operator ++ ();			 // prefix  incr.
+	Matrix& 		operator *= (const Matrix &);
+	Matrix& 		operator /= (const Matrix &);
+	Matrix& 		operator ++ ();			 // prefix  incr.
 	Matrix& 		operator ++ (const int); // postfix incr.
 	Matrix& 		operator -- (); 		 // prefix  decr.
 	Matrix& 		operator -- (const int); // postfix decr.
