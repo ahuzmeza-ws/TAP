@@ -6,7 +6,7 @@
 /*   By: alinhuzmezan            							╚═╝╩ ╩╚  ╚═╝ ╩    */
 /*                                                       George Emil Palade   */
 /*   Created: 2020/12/30 23:15 by alinhuzmezan                                */
-/*   Updated: 2020/12/30 23:15 by alinhuzmezan                                */
+/*   Updated: 2021/01/08 18:09 by alinhuzmezan                                */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,9 +17,7 @@ using namespace std;
 
 int main()
 {
-	SLL<class T> lst;
 		
-	cout <<"\n";
 
 return (0);
 }
